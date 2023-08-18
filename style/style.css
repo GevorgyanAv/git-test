@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto+Condensed&family=Smokum&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 85%;
+    height: 100%;
+}
+
+.text {
+    width: 100%;
+    height: 28%;
+}
+
+.p1 {
+    color: black;
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.p2 {
+    color: #2C4776;
+    font-weight: bolder;
+    font-size: 70px;
+    padding-top: 45px;
+    letter-spacing: 2px;
+}
+
+.item {
+    width: 100%;
+    height: 72%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-left {
+    width: 49%;
+    height: 100%;
+}
+
+.section-top {
+    width: 100%;
+    height: 32%;
+}
+
+.p3 {
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 100;
+}
+
+.section-bottom {
+    width: 100%;
+    height: 68%;
+    background: url(../pictures/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-right {
+    width: 49%;
+    height: 100%;
+}
+
+.section-top1 {
+    width: 100%;
+    height: 68%;
+    background: url(../pictures/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-bottom1 {
+    width: 100%;
+    height: 32%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-end;
+    
+}
+
+.item1 {
+    height: 200px;
+    width: 40%;
+    margin-left: 40px;
+}
+
+.a {
+    position: absolute;
+    left: -40%;
+    background: url(../pictures/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -8px;
+}
+.b{
+    background: url(../pictures/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 30px;
+}
+.c{
+    background: url(../pictures/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
